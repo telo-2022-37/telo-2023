@@ -1,0 +1,11 @@
+Outputs
+Y1: Winding Temperature
+Y2: Inner Bearing Temperature
+Y3: Outer Bearing Temperature
+Y4: Steel Temperature
+Y5: Flange Temperature
+Y6: Rotor Temperature
+
+Inputs
+X1: Speed
+X3: Current
