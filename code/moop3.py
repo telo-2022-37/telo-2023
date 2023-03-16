@@ -9,7 +9,7 @@ from optimisation import MinimaxOptimisation
 from functions import project_seeds, write_front_tofile, write_solutions_tofile
 
 def the_optimisation(rseed):
-    evaluations = 500
+    evaluations = 50000
     pop_size = 200
 
     moop3 = MinimaxOptimisation(

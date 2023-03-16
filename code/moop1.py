@@ -9,7 +9,7 @@ from optimisation import DatasetsOptimisation
 from functions import project_seeds, write_front_tofile, write_solutions_tofile
 
 def the_optimisation(rseed):
-    evaluations = 1000
+    evaluations = 50000
     pop_size = 200
 
     moop1 = DatasetsOptimisation(
@@ -38,7 +38,6 @@ def the_optimisation(rseed):
 
     # write all solutions to csv file
     write_solutions_tofile(moop1)
-    # moop1.all_solutions.to_csv(f"{moop1.file_path}/{moop1.target_id}_{moop1.test_metric}_all_solutions.csv", index=False)
 
 @timebudget
 def run_the_optimisation(the_optimisation, random_seeds, pool):
